@@ -1,6 +1,7 @@
 def wordSorter():
     raceObject = open('race.txt', encoding='utf-8')
     str = raceObject.read().lower()
+    raceObject.close()
     # breakdown the string into a list of words
     words1 = str.split()
     # sort the list
