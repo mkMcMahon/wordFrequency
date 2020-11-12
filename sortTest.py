@@ -1,11 +1,11 @@
 import unittest
 
-from main2 import wordSorter
+from main2 import wordsorter, wordsorter
 
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
-        self.assertIsNone( wordSorter())
+        self.assertIsNone(wordsorter())
 
 
 if __name__ == '__main__':
